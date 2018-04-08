@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/btnSelectPhoto"
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:text="Select Photo" />
+
+        <EditText
+            android:id="@+id/lblPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="0 CAD"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <ListView
+            android:id="@+id/products_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" >
+        </ListView>
+
+        <!--<ImageView-->
+            <!--android:id="@+id/ivImage"-->
+            <!--android:layout_width="61dp"-->
+            <!--android:layout_height="50dp" />-->
+    </LinearLayout>
+
+</LinearLayout>
